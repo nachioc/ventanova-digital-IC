@@ -1,0 +1,24 @@
+import { Producto, Ventaja } from '../models/producto.interface';
+
+export const PRODUCTOS: Producto[] = [
+  { id: 1, nombre: 'Curso de Ventas por WhatsApp', categoria: 'Cursos', descripcion: 'Aprende a cerrar ventas con mensajería, catálogos y respuestas automáticas.', precio: 29990, rating: 4.8, crecimiento: 42, ventas: 1280, destacado: true, icono: '💬', caracteristicas: ['6 módulos en video', 'Guiones de venta listos', 'Certificado de finalización'] },
+  { id: 2, nombre: 'Pack de Plantillas para Instagram', categoria: 'Plantillas', descripcion: 'Más de 120 diseños editables para publicaciones, historias y reels de tu marca.', precio: 14990, rating: 4.6, crecimiento: 35, ventas: 2105, destacado: true, icono: '🎨', caracteristicas: ['120 plantillas editables', 'Compatible con Canva', 'Actualizaciones mensuales'] },
+  { id: 3, nombre: 'Auditoría de Tienda Online', categoria: 'Servicios', descripcion: 'Revisamos tu sitio y te entregamos un plan concreto para vender más.', precio: 89990, rating: 4.9, crecimiento: 28, ventas: 342, destacado: true, icono: '🔍', caracteristicas: ['Informe en 5 días', 'Revisión de UX y velocidad', 'Sesión de 1 hora con un experto'] },
+  { id: 4, nombre: 'Suscripción Insights Mensual', categoria: 'Suscripciones', descripcion: 'Reportes mensuales con tendencias del comercio electrónico en Latinoamérica.', precio: 9990, rating: 4.5, crecimiento: 51, ventas: 960, destacado: true, icono: '📈', caracteristicas: ['Reporte mensual en PDF', 'Alertas de tendencias', 'Acceso a comunidad privada'] },
+  { id: 5, nombre: 'Curso de Publicidad Digital', categoria: 'Cursos', descripcion: 'Campañas en Meta y Google desde cero, con presupuestos pequeños.', precio: 39990, rating: 4.7, crecimiento: 31, ventas: 874, destacado: false, icono: '🎯', caracteristicas: ['8 módulos prácticos', 'Casos reales de pymes', 'Soporte por 30 días'] },
+  { id: 6, nombre: 'Plantilla de Catálogo Digital', categoria: 'Plantillas', descripcion: 'Catálogo interactivo en PDF y web para compartir por redes y mensajería.', precio: 19990, rating: 4.4, crecimiento: 22, ventas: 1530, destacado: false, icono: '📘', caracteristicas: ['Versión PDF y web', 'Personalizable con tu marca', 'Guía de uso incluida'] },
+  { id: 7, nombre: 'Diseño de Tienda a Medida', categoria: 'Servicios', descripcion: 'Creamos tu tienda en línea completa, lista para recibir pagos.', precio: 249990, rating: 4.9, crecimiento: 19, ventas: 118, destacado: false, icono: '🛍️', caracteristicas: ['Diseño responsive', 'Pasarela de pago integrada', 'Capacitación de uso'] },
+  { id: 8, nombre: 'Suscripción Club de Vendedores', categoria: 'Suscripciones', descripcion: 'Talleres en vivo, recursos descargables y mentorías grupales cada semana.', precio: 19990, rating: 4.7, crecimiento: 46, ventas: 690, destacado: false, icono: '🚀', caracteristicas: ['Talleres en vivo semanales', 'Biblioteca de recursos', 'Mentoría grupal'] },
+  { id: 9, nombre: 'Curso de Fotografía de Producto', categoria: 'Cursos', descripcion: 'Fotografía con celular para que tus productos se vean profesionales.', precio: 24990, rating: 4.6, crecimiento: 17, ventas: 745, destacado: false, icono: '📸', caracteristicas: ['Edición con apps gratuitas', 'Iluminación casera', 'Ejercicios con feedback'] },
+  { id: 10, nombre: 'Kit de Correos de Venta', categoria: 'Plantillas', descripcion: 'Secuencias de email para bienvenida, carrito abandonado y recompra.', precio: 12990, rating: 4.3, crecimiento: 26, ventas: 1190, destacado: false, icono: '✉️', caracteristicas: ['15 correos redactados', 'Plantillas HTML', 'Métricas sugeridas'] },
+  { id: 11, nombre: 'Gestión de Redes Sociales', categoria: 'Servicios', descripcion: 'Planificamos, publicamos y medimos tu contenido cada mes.', precio: 149990, rating: 4.5, crecimiento: 24, ventas: 210, destacado: false, icono: '📱', caracteristicas: ['12 publicaciones al mes', 'Informe de resultados', 'Atención de comentarios'] },
+  { id: 12, nombre: 'Suscripción Biblioteca de Recursos', categoria: 'Suscripciones', descripcion: 'Acceso ilimitado a plantillas, guías y herramientas para vender en línea.', precio: 7990, rating: 4.2, crecimiento: 38, ventas: 1420, destacado: false, icono: '📚', caracteristicas: ['Descargas ilimitadas', 'Nuevos recursos cada semana', 'Cancela cuando quieras'] }
+];
+
+export const VENTAJAS: Ventaja[] = [
+  { aspecto: 'Catálogo', tradicional: 'PDF o fotos estáticas', ventanova: 'Catálogo dinámico con búsqueda y filtros' },
+  { aspecto: 'Atención', tradicional: 'Mensajes manuales uno a uno', ventanova: 'Registro de interés centralizado' },
+  { aspecto: 'Información', tradicional: 'Precios y detalles dispersos', ventanova: 'Ficha clara de cada producto' },
+  { aspecto: 'Tendencias', tradicional: 'Decisiones por intuición', ventanova: 'Datos de crecimiento por categoría' },
+  { aspecto: 'Alcance', tradicional: 'Depende de cada red social', ventanova: 'Web propia, rápida y adaptable' }
+];
